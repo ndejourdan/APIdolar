@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API dolar</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<h1>API dolar</h1>
+	</div>
+	<div class="row">
+		<div class="col-md-offset-3 col-md-6">
+			<table class="table table-responsive">
+					<tr>
+						<th>Indicador</th>
+						<th>Valor actual</th>
+					</tr>
+				<tr>
+					<td>Dólar</td>
+					<td id="dolar"></td>
+				</tr>
+				<tr>
+					<td>Euro</td>
+					<td id="euro"></td>
+				</tr>
+				<tr>
+					<td>UF</td>
+					<td id="uf"></td>
+				</tr>
+				<tr>
+					<td>UTM</td>
+					<td id="utm"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-offset-2 col-md-3">
+		
+			<form id="form1">
+				<h3>Ingresa pesos chilenos</h3>
+				<input id="clp" type="number" min="0" placeholder="Pesos Chilenos">
+				<button class="button" id="convert1" type="submit">Convertir</button>
+				<input class="dolar1" placeholder="Dólar">
+				<input class="euro1" placeholder="Euro">
+			</form>
+	
+		</div>
+
+		<div class="col-md-offset-2 col-md-3">
+			<form id="form2">
+				<h3>Ingresa dólares</h3>
+				<input id="dolar2" type="number" min="0" placeholder="Dólares">
+				<button class="button" id="convert2" type="submit">Convertir</button>
+				<input class="clp" placeholder="Pesos Chilenos">
+			</form>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>

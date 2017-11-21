@@ -1,0 +1,32 @@
+.jumbotron{
+	background-color: #426669;
+	color: #fff
+}
+
+th{
+	background-color: #426669;
+	border: 1px solid #426669;
+	color: #fff;
+}
+
+td{
+	background-color: #fff;
+	border-bottom: 1px solid #426669;
+}
+
+tr:hover {background-color:#fff;}
+
+.button{
+	background-color: white;
+	color: #426669;
+	border: 2px solid #426669;
+}
+.button {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #426669; 
+	color: white;
+}
